@@ -94,6 +94,13 @@ It does so by fetching schema metadata for a database by querying the [informati
 
 * [GitHub repository](https://github.com/cloudspannerecosystem/yo)
 
+### Scheduled Backups
+
+Scheduled Backups shows how to use Cloud Scheduler and Cloud Functions to
+configure a schedule for creating Cloud Spanner backups.
+
+* [GitHub repository](https://github.com/cloudspannerecosystem/scheduled-backups)
+
 # Contributing
 
 We'd love to accept your patches and contributions! For details, please check
