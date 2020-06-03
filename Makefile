@@ -1,2 +1,0 @@
-all:
-	hugo -d docs/

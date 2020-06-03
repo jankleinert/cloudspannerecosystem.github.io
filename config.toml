@@ -1,8 +1,0 @@
-languageCode = "en-us"
-title = "Cloud Spanner Ecosystem "
-baseurl = "https://cloudspannerecosystem.dev/"
-
-rssLimit = 1000
-
-[author]
-  name = "Cloud Spanner Ecosystem"
