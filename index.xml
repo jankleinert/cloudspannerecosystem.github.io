@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud Spanner Ecosystem </title>
+    <link>https://cloudspannerecosystem.dev/</link>
+    <description>Recent content on Cloud Spanner Ecosystem </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://cloudspannerecosystem.dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contributing</title>
+      <link>https://cloudspannerecosystem.dev/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cloudspannerecosystem.dev/contributing/</guid>
+      <description>We’d love to accept your patches and contributions! For details, please check the README.md and docs/contributing.md files in the repository of the project that you’re interested in.
+Please get in touch if you’re interested in starting a new project or moving an existing repository to this organization! All projects hosted here need to have good test coverage. We’re happy to help you with setting up unit and integration tests, but we rely on your contributions for continued maintenance.</description>
+    </item>
+    
+    <item>
+      <title>Google Open Source Community Guidelines</title>
+      <link>https://cloudspannerecosystem.dev/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cloudspannerecosystem.dev/code-of-conduct/</guid>
+      <description>At Google, we recognize and celebrate the creativity and collaboration of open source contributors and the diversity of skills, experiences, cultures, and opinions they bring to the projects and communities they participate in.
+Every one of Google&amp;rsquo;s open source projects and communities are inclusive environments, based on treating all individuals respectfully, regardless of gender identity and expression, sexual orientation, disabilities, neurodiversity, physical appearance, body size, ethnicity, nationality, race, age, religion, or similar personal characteristic.</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://cloudspannerecosystem.dev/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cloudspannerecosystem.dev/home/</guid>
+      <description>The Cloud Spanner Ecosystem GitHub organization hosts a collection of public repositories that are owned-by and developed-for the Google Cloud Spanner user community.
+All the hosted projects are based on open source contributions. We’d love for you to report issues, file feature requests, and send pull requests. See details on contributions. Note that none of the projects are officially supported by Google as part of the Cloud Spanner product. Please let us know if you’re interested in getting your project hosted!</description>
+    </item>
+    
+  </channel>
+</rss>
