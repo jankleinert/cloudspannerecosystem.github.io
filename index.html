@@ -17,11 +17,6 @@
 
   
   <link rel="shortcut icon" href="/img/favicon.ico">
-
-  
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Cloud Spanner Ecosystem " />
-  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-  
 </head>
 <body>
 
@@ -33,11 +28,14 @@
 
   <ul>
     <li><a href="/">Home</a></li>
+    <li><a href="/projects/">Projects</a></li>
+    <li><a href="/resources/">Resources</a></li>
     <li><a href="/contributing/">Contributing</a></li>
     <li><a href="https://gitter.im/cloudspannerecosystem/community">Gitter</a></li>
     <li><a href="https://github.com/cloudspannerecosystem">GitHub</a></li>
   </ul>
 </div>
+
 
 
 
@@ -50,10 +48,10 @@
     
   
     
+  
+    
     <div class="post">
-      <div class="post-content">
-
-<p>The <a href="https://github.com/cloudspannerecosystem">Cloud Spanner Ecosystem</a>
+      <div class="post-content"><p>The <a href="https://github.com/cloudspannerecosystem">Cloud Spanner Ecosystem</a>
 GitHub organization hosts a collection of public
 repositories that are owned-by and
 developed-for the <a href="https://cloud.google.com/spanner">Google Cloud Spanner</a>
@@ -61,186 +59,18 @@ user community.</p>
 
 <p>All the hosted projects are based on open source contributions.
 We’d love for you to report issues, file feature requests,
-and send pull requests. See details on <a href="/contributing">contributions</a>.
+and send pull requests (see <a href="/contributing">contributions</a>).
 Note that none of the projects are officially supported by Google
-as part of the Cloud Spanner product.
-Please <a href="https://gitter.im/cloudspannerecosystem/community">let us know</a>
+as part of the Cloud Spanner product.</p>
+
+<p>Please <a href="https://gitter.im/cloudspannerecosystem/community">let us know</a>
 if you’re interested in getting your project hosted! This will help other
 Cloud Spanner developers find your project and contribute to it.</p>
 
-<h1 id="projects">Projects</h1>
-
 <ul>
-<li><p><a href="https://github.com/cloudspannerecosystem/sampledb">SampleDB</a>:
-This application allows you to quickly get a sample database
-into Cloud Spanner. It does so by loading data from a CSV file
-into a new Cloud Spanner database.</p></li>
-
-<li><p><a href="https://github.com/cloudspannerecosystem/appengine-java-sample">App Engine Java Sample</a>:
-This sample demonstrates how to use Cloud Spanner
-from the App Engine Standard with Java 11 environment.</p></li>
-
-<li><p><a href="https://github.com/cloudspannerecosystem/harbourbridge">HarbourBridge</a>:
-HarbourBridge is a stand-alone tool for Cloud Spanner evaluation,
-using data from an existing PostgreSQL database. The tool ingests
-pg_dump output, automatically builds a Spanner schema, and creates
-a new Spanner database populated with data from pg_dump.</p></li>
-
-<li><p><a href="https://github.com/cloudspannerecosystem/spanner-cli">spanner-cli</a>:
-spanner-cli is an interactive command line tool, inspired by the
-mysql utility. It allows you to control your Cloud Spanner
-databases with idiomatic database commands, such as SHOW TABLES or
-SELECT / INSERT / UPDATE / DELETE.</p></li>
-
-<li><p><a href="https://github.com/cloudspannerecosystem/spanner-dump">spanner-dump</a>:
-spanner-dump is a command line tool for exporting a Cloud Spanner
-database in text format. This tool can be used for Cloud Spanner
-service for testing purposes or databases running on
-Cloud Spanner Emulator.
-You can import exported databases into
-Cloud Spanner again with <a href="https://github.com/cloudspannerecosystem/spanner-cli">spanner-cli</a>.</p></li>
-
-<li><p><a href="https://github.com/cloudspannerecosystem/pgadapter">PGAdapter</a>:
-PGAdapter is a client-side Java proxy which translates
-Postgres wire protocol into the Cloud Spanner equivalent.
-By running this proxy locally, any Postgres client
-(including the SQL command-line client PSQL) should function
-seamlessly by simply pointing its outbound port to the this
-proxy’s inbound port.</p></li>
-
-<li><p><a href="https://github.com/cloudspannerecosystem/wrench">wrench</a>:
-wrench is a schema management tool for Cloud Spanner.
-It manages DDLs for schema migration and provides several
-schema related features like creating / deleting databases
-and loading schemas from files.</p></li>
-
-<li><p><a href="https://github.com/cloudspannerecosystem/yo">yo</a>:
-yo is a command-line tool to generate database-specific code
-to access Cloud Spanner through Go objects instead of SQL queries.
-It does so by fetching schema metadata for a database by
-querying the information schema and applies Go templates to
-generate code / models.</p></li>
-
-<li><p><a href="https://github.com/cloudspannerecosystem/scheduled-backups">Scheduled Backups</a>:
-Scheduled Backups shows how to use Cloud Scheduler and Cloud Functions to
-configure a schedule for creating Cloud Spanner backups.</p></li>
-</ul>
-
-<h1 id="resources">Resources</h1>
-
-<h2 id="documentation">Documentation</h2>
-
-<ul>
-<li><a href="https://cloud.google.com/spanner">Official Documentation</a></li>
-<li><a href="https://cloud.google.com/spanner/docs/best-practice-list">Best Practices</a></li>
-<li><a href="https://cloud.google.com/spanner/docs/reference/rest">API Reference</a></li>
-<li><a href="https://www.gcpweekly.com/gcp-resources/tag/google-cloud-spanner/">GCP Weekly: Spanner</a></li>
-</ul>
-
-<h2 id="libraries-and-orms">Libraries and ORMs</h2>
-
-<h3 id="client-libraries">Client Libraries</h3>
-
-<ul>
-<li><a href="https://cloud.google.com/docs/authentication/production">Authentication via Application Default Credentials (ADC)</a></li>
-<li><a href="https://googleapis.dev/java/google-cloud-clients/0.119.0-alpha/com/google/cloud/spanner/package-summary.html">Java</a> (<a href="https://cloud.google.com/spanner/docs/getting-started/java">tutorial</a>)</li>
-<li><a href="https://pkg.go.dev/cloud.google.com/go/spanner">Go</a> (<a href="https://cloud.google.com/spanner/docs/getting-started/go">tutorial</a>)</li>
-<li><a href="https://googleapis.dev/nodejs/spanner/latest/">Node.js</a> (<a href="https://cloud.google.com/spanner/docs/getting-started/nodejs">tutorial</a>)</li>
-<li><a href="https://googleapis.dev/python/spanner/latest/index.html">Python</a> (<a href="https://cloud.google.com/spanner/docs/getting-started/python">tutorial</a>)</li>
-<li><a href="https://googleapis.github.io/google-cloud-php/#/docs/google-cloud/latest/spanner/readme">PHP</a> (<a href="https://cloud.google.com/spanner/docs/getting-started/php">tutorial</a>)</li>
-<li><a href="https://googleapis.dev/ruby/google-cloud-spanner/latest/Google/Cloud/Spanner.html">Ruby</a> (<a href="https://cloud.google.com/spanner/docs/getting-started/ruby">tutorial</a>)</li>
-<li><a href="https://googleapis.github.io/google-cloud-dotnet/docs/Google.Cloud.Spanner.Data/api/Google.Cloud.Spanner.Data.html">C#</a> (<a href="https://cloud.google.com/spanner/docs/getting-started/csharp">tutorial</a>)</li>
-</ul>
-
-<h3 id="drivers">Drivers</h3>
-
-<ul>
-<li><a href="https://cloud.google.com/spanner/docs/jdbc-drivers">Google&rsquo;s OSS</a> JDBC driver</li>
-<li><a href="https://cloud.google.com/spanner/docs/jdbc-drivers">Simba</a> JDBC driver</li>
-<li><a href="https://github.com/GoogleCloudPlatform/cloud-spanner-r2dbc">R2DBC</a> driver</li>
-<li><a href="https://github.com/rakyll/go-sql-driver-spanner">Go database/sql</a> driver</li>
-</ul>
-
-<h3 id="orm">ORM</h3>
-
-<ul>
-<li><a href="https://github.com/googleapis/python-spanner-django/">Django</a></li>
-<li><a href="https://cloud.google.com/spanner/docs/use-hibernate">Hibernate ORM</a></li>
-<li><a href="https://cloud.google.com/spanner/docs/adding-spring">Spring Data</a></li>
-</ul>
-
-<h2 id="tools">Tools</h2>
-
-<ul>
-<li><a href="https://console.cloud.google.com/spanner">Spanner Console</a></li>
-<li><a href="https://github.com/cloudspannerecosystem/spanner-cli">Spanner command-line</a></li>
-<li><a href="https://cloud.google.com/sdk/gcloud/reference/spanner">gcloud Reference</a></li>
-<li><a href="https://github.com/GoogleCloudPlatform/cloud-spanner-emulator">Spanner Emulator</a></li>
-<li><a href="https://github.com/cloudspannerecosystem/wrench">wrench</a> - Schema management tool for Spanner.</li>
-<li><a href="https://github.com/daichirata/hammer">hammer</a> - Schema management tool for Spanner.</li>
-<li><a href="https://github.com/cloudspannerecosystem/yo">yo</a> - A command-line tool to generate Go code for Google Cloud Spanner.</li>
-<li><a href="https://github.com/gcpug/handy-spanner">handy-spanner</a> - An unofficial SQLite backed Spanner emulator.</li>
-<li><a href="https://github.com/rakyll/spannerz">spannerz</a> - Query planner visualizer that also provides introspection tools for Go programs.</li>
-<li><a href="https://github.com/cloudspannerecosystem/spanner-dump">spanner-dump</a> - A command-line tool to export Cloud Spanner databases in text format.</li>
-</ul>
-
-<h2 id="configuration-management">Configuration Management</h2>
-
-<ul>
-<li><a href="https://github.com/GoogleCloudPlatform/chef-google-spanner">Chef</a></li>
-<li><a href="https://github.com/GoogleCloudPlatform/puppet-google-spanner">Puppet</a></li>
-<li><a href="https://www.terraform.io/docs/providers/google/r/spanner_database.html">Terraform</a></li>
-</ul>
-
-<h2 id="migration">Migration</h2>
-
-<ul>
-<li>Migration from <a href="https://cloud.google.com/spanner/docs/migrating-postgres-spanner">PostgreSQL</a>, <a href="https://cloud.google.com/solutions/migrating-mysql-to-spanner">MySQL</a>, <a href="https://cloud.google.com/solutions/migrating-oracle-to-cloud-spanner">Oracle</a>, <a href="https://cloud.google.com/solutions/migrating-dynamodb-to-cloud-spanner">DynomoDB</a>.</li>
-<li><a href="https://github.com/cloudspannerecosystem/harbourbridge">Harbourbridge</a> - PostgreSQL to Spanner schema and data migrator.</li>
-<li><a href="https://github.com/cloudspannerecosystem/pgadapter">pgadapter</a> - A proxy that translates the wire protocol from Postgres to Cloud Spanner.</li>
-<li><a href="https://github.com/golang-migrate/migrate">migrate</a> - A migration tool with Spanner support.</li>
-</ul>
-
-<h2 id="performance-and-debugging">Performance and Debugging</h2>
-
-<ul>
-<li><a href="https://cloud.google.com/spanner/docs/query-execution-plans">Query Execution Plans</a></li>
-<li><a href="https://cloud.google.com/spanner/docs/sql-best-practices">SQL Best Practices</a></li>
-<li><a href="https://cloud.google.com/spanner/docs/cpu-utilization">CPU Utilization</a></li>
-<li><a href="https://cloud.google.com/spanner/docs/latency">Latency Debugging</a></li>
-<li><a href="https://medium.com/@orijtech/cloud-spanner-instrumented-by-opencensus-and-exported-to-stackdriver-6ed61ed6ab4e">Distributed Tracing and Client Metrics</a></li>
-</ul>
-
-<h2 id="whitepapers">Whitepapers</h2>
-
-<ul>
-<li><a href="https://research.google/pubs/pub39966/">Spanner: Google&rsquo;s Globally-Distributed Database</a></li>
-<li><a href="https://research.google/pubs/pub45855/">Spanner, TrueTime and the CAP Theorem</a></li>
-<li><a href="https://research.google/pubs/pub46103/">Spanner: Becoming a SQL System</a></li>
-</ul>
-
-<h2 id="talks">Talks</h2>
-
-<ul>
-<li><a href="https://www.youtube.com/watch?v=IfsTINNCooY">Cloud Spanner 101: Google&rsquo;s mission-critical relational database</a></li>
-<li><a href="https://www.youtube.com/watch?v=nvlt0dA7rsQ">Spanner Internals Part 1: What Makes Spanner Tick?</a></li>
-<li><a href="https://www.youtube.com/watch?v=zy-rcR4MoN4">Spanner Internals Part 2: Global Meta-Data and Scalable Data Backend</a></li>
-<li><a href="https://www.youtube.com/watch?v=FNeGQUqMa_c">Best Practices on Migrating to Cloud Spanner</a></li>
-<li><a href="https://youtu.be/mYV6_OaZeEs?t=1629">Ben Sigelman presents the Spanner whitepaper</a></li>
-</ul>
-
-<h2 id="podcasts">Podcasts</h2>
-
-<ul>
-<li><a href="https://www.gcppodcast.com/post/episode-62-cloud-spanner-with-deepti-srivastava/">Google Cloud Platform Podcast</a></li>
-<li><a href="https://softwareengineeringdaily.com/2019/09/10/google-spanner-with-deepti-srivastava">Software Engineering Daily</a></li>
-<li><a href="http://architechtshow.com/ep-44-googles-deepti-srivastava-on-multi-region-spanner-and-case-for-cloud-databases">The Architect</a></li>
-</ul>
-
-<h2 id="meetups">Meetups</h2>
-
-<ul>
-<li><a href="https://www.meetup.com/Cloud-Spanner-Developers/">Google Cloud Spanner Developers</a>, San Francisco, CA</li>
+<li><a href="/projects">Projects</a> describes all the hosted repositories.</li>
+<li><a href="/resources">Resources</a> is a collection of Cloud Spanner related content:
+blog posts, meetups, talks, tools, guides, etc.</li>
 </ul>
 </div>
     </div>

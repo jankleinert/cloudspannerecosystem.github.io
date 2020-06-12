@@ -31,13 +31,34 @@ Every one of Google&amp;rsquo;s open source projects and communities are inclusi
     </item>
     
     <item>
+      <title>Projects</title>
+      <link>https://cloudspannerecosystem.dev/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cloudspannerecosystem.dev/projects/</guid>
+      <description>SampleDB: This application allows you to quickly get a sample database into Cloud Spanner. It does so by loading data from a CSV file into a new Cloud Spanner database.
+ App Engine Java Sample: This sample demonstrates how to use Cloud Spanner from the App Engine Standard with Java 11 environment.
+ HarbourBridge: HarbourBridge is a stand-alone tool for Cloud Spanner evaluation, using data from an existing PostgreSQL database.</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://cloudspannerecosystem.dev/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cloudspannerecosystem.dev/resources/</guid>
+      <description>Index  Blogs Talks Podcasts Meetups Documentation Whitepapers Libraries and ORMs Tools Configuration Management Migration Performance and Debugging  Blogs Technical Overview  Apr 2020: Things I Wished More Developers Knew About Databases  Operational Excellence  May 2020: Create Cloud Spanner Scheduled Backups Apr 2020: Instrumenting Cloud Spanner Go Applications with OpenCensus Mar 2020: Troubleshooting Cloud Spanner Applications with OpenCensus  Internals  May 2020: How Does Spanner Avoid Single Point of Failures in Writes?</description>
+    </item>
+    
+    <item>
       <title>Welcome</title>
       <link>https://cloudspannerecosystem.dev/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cloudspannerecosystem.dev/home/</guid>
       <description>The Cloud Spanner Ecosystem GitHub organization hosts a collection of public repositories that are owned-by and developed-for the Google Cloud Spanner user community.
-All the hosted projects are based on open source contributions. We’d love for you to report issues, file feature requests, and send pull requests. See details on contributions. Note that none of the projects are officially supported by Google as part of the Cloud Spanner product. Please let us know if you’re interested in getting your project hosted!</description>
+All the hosted projects are based on open source contributions. We’d love for you to report issues, file feature requests, and send pull requests (see contributions). Note that none of the projects are officially supported by Google as part of the Cloud Spanner product.
+Please let us know if you’re interested in getting your project hosted!</description>
     </item>
     
   </channel>

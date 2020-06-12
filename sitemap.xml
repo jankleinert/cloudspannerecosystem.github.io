@@ -3,10 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://cloudspannerecosystem.dev/blog/</loc>
-  </url>
-  
-  <url>
     <loc>https://cloudspannerecosystem.dev/categories/</loc>
   </url>
   
@@ -20,6 +16,14 @@
   
   <url>
     <loc>https://cloudspannerecosystem.dev/code-of-conduct/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cloudspannerecosystem.dev/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cloudspannerecosystem.dev/resources/</loc>
   </url>
   
   <url>
