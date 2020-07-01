@@ -36,9 +36,9 @@ Every one of Google&amp;rsquo;s open source projects and communities are inclusi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cloudspannerecosystem.dev/projects/</guid>
-      <description>SampleDB: This application allows you to quickly get a sample database into Cloud Spanner. It does so by loading data from a CSV file into a new Cloud Spanner database.
- App Engine Java Sample: This sample demonstrates how to use Cloud Spanner from the App Engine Standard with Java 11 environment.
- HarbourBridge: HarbourBridge is a stand-alone tool for Cloud Spanner evaluation, using data from an existing PostgreSQL database.</description>
+      <description>SampleDB allows you to quickly get a sample database into Cloud Spanner. It does so by loading data from a CSV file into a new Cloud Spanner database.
+ App Engine Java Sample demonstrates how to use Cloud Spanner from the App Engine Standard with Java 11 environment.
+ HarbourBridge is a stand-alone tool for Cloud Spanner evaluation, using data from an existing PostgreSQL database. The tool ingests pg_dump output, automatically builds a Spanner schema, and creates a new Spanner database populated with data from pg_dump.</description>
     </item>
     
     <item>
