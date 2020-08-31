@@ -11,6 +11,26 @@
     
     
     <item>
+      <title>Blog</title>
+      <link>https://cloudspannerecosystem.dev/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cloudspannerecosystem.dev/blog/</guid>
+      <description>Technical overview  Apr 2020: Things I Wished More Developers Knew About Databases  Operational excellence  Jul 2020: Cloud Spanner Change Watcher and Cloud Spanner Change Publisher May 2020: Create Cloud Spanner Scheduled Backups Apr 2020: Instrumenting Cloud Spanner Go Applications with OpenCensus Mar 2020: Troubleshooting Cloud Spanner Applications with OpenCensus  Internals  May 2020: How Does Spanner Avoid Single Point of Failures in Writes? Feb 2020: Internals of Google Cloud Spanner  Performance  Jun 2020: Increase visibility into Cloud Spanner performance with transaction stats May 2020: Use GFE Server-Timing Header in Cloud Spanner Debugging  Developer productivity  Jun 2020: DML and Mutations - a tale of two data altering techniques in Cloud Spanner Apr 2020: Cloud Spanner Emulator Dec 2019: Google Cloud Spanner Dialect for Hibernate released Nov 2019: Opening the door to more dev tools for Cloud Spanner  Migration  Feb 2020: HarbourBridge: From PostgreSQL to Cloud Spanner Jun 2019: Migrating from DynamoDB to Google Cloud Spanner  </description>
+    </item>
+    
+    <item>
+      <title>Cloud Spanner Ecosystem</title>
+      <link>https://cloudspannerecosystem.dev/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cloudspannerecosystem.dev/home/</guid>
+      <description>The Cloud Spanner Ecosystem GitHub organization hosts a collection of public repositories that are owned-by and developed-for the Google Cloud Spanner user community.
+All the hosted projects are based on open source contributions. We’d love for you to report issues, file feature requests, and send pull requests (see contributions). Note that none of the projects are officially supported by Google as part of the Cloud Spanner product.
+Please let us know if you’re interested in getting your project hosted!</description>
+    </item>
+    
+    <item>
       <title>Contributing</title>
       <link>https://cloudspannerecosystem.dev/contributing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -37,8 +57,8 @@ Every one of Google&amp;rsquo;s open source projects and communities are inclusi
       
       <guid>https://cloudspannerecosystem.dev/projects/</guid>
       <description>App Engine Java Sample demonstrates how to use Cloud Spanner from the App Engine Standard with Java 11 environment.
- HarbourBridge is a stand-alone tool for Cloud Spanner evaluation, using data from an existing PostgreSQL database. The tool ingests pg_dump output, automatically builds a Spanner schema, and creates a new Spanner database populated with data from pg_dump.
- PGAdapter is a client-side Java proxy which translates Postgres wire protocol into the Cloud Spanner equivalent.</description>
+  HarbourBridge is a stand-alone tool for Cloud Spanner evaluation, using data from an existing PostgreSQL database. The tool ingests pg_dump output, automatically builds a Spanner schema, and creates a new Spanner database populated with data from pg_dump.
+  PGAdapter is a client-side Java proxy which translates Postgres wire protocol into the Cloud Spanner equivalent.</description>
     </item>
     
     <item>
@@ -47,18 +67,7 @@ Every one of Google&amp;rsquo;s open source projects and communities are inclusi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cloudspannerecosystem.dev/resources/</guid>
-      <description>Index  Blogs Talks Podcasts Meetups Documentation Whitepapers Libraries and ORMs Tools Configuration management Migration Performance and debugging  Blogs Technical overview  Apr 2020: Things I Wished More Developers Knew About Databases  Operational excellence  Jul 2020: Cloud Spanner Change Watcher and Cloud Spanner Change Publisher May 2020: Create Cloud Spanner Scheduled Backups Apr 2020: Instrumenting Cloud Spanner Go Applications with OpenCensus Mar 2020: Troubleshooting Cloud Spanner Applications with OpenCensus  Internals  May 2020: How Does Spanner Avoid Single Point of Failures in Writes?</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>https://cloudspannerecosystem.dev/home/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cloudspannerecosystem.dev/home/</guid>
-      <description>The Cloud Spanner Ecosystem GitHub organization hosts a collection of public repositories that are owned-by and developed-for the Google Cloud Spanner user community.
-All the hosted projects are based on open source contributions. We’d love for you to report issues, file feature requests, and send pull requests (see contributions). Note that none of the projects are officially supported by Google as part of the Cloud Spanner product.
-Please let us know if you’re interested in getting your project hosted!</description>
+      <description>Talks  Cloud Spanner 101: Google&amp;rsquo;s mission-critical relational database Spanner Internals Part 1: What Makes Spanner Tick? Spanner Internals Part 2: Global Meta-Data and Scalable Data Backend Best Practices on Migrating to Cloud Spanner Ben Sigelman presents the Spanner whitepaper  Podcasts  Google Cloud Platform Podcast Software Engineering Daily The Architect  Meetups  Google Cloud Spanner Developers, San Francisco, CA  Documentation  Official Documentation Best Practices API Reference GCP Weekly: Spanner  Whitepapers  Spanner: Google&amp;rsquo;s Globally-Distributed Database Spanner, TrueTime and the CAP Theorem Spanner: Becoming a SQL System  Libraries and ORMs Client libraries  Authentication via Application Default Credentials (ADC) Java (tutorial) Go (tutorial) Node.</description>
     </item>
     
   </channel>
