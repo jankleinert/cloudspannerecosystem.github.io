@@ -5,18 +5,14 @@
     <link>https://cloudspannerecosystem.dev/</link>
     <description>Recent content on Cloud Spanner Ecosystem </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://cloudspannerecosystem.dev/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://cloudspannerecosystem.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
       <link>https://cloudspannerecosystem.dev/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cloudspannerecosystem.dev/blog/</guid>
-      <description>Technical overview  Apr 2020: Things I Wished More Developers Knew About Databases  Operational excellence  Jul 2020: Cloud Spanner Change Watcher and Cloud Spanner Change Publisher May 2020: Create Cloud Spanner Scheduled Backups Apr 2020: Instrumenting Cloud Spanner Go Applications with OpenCensus Mar 2020: Troubleshooting Cloud Spanner Applications with OpenCensus  Internals  May 2020: How Does Spanner Avoid Single Point of Failures in Writes? Feb 2020: Internals of Google Cloud Spanner  Performance  Jun 2020: Increase visibility into Cloud Spanner performance with transaction stats May 2020: Use GFE Server-Timing Header in Cloud Spanner Debugging  Developer productivity  Jun 2020: DML and Mutations - a tale of two data altering techniques in Cloud Spanner Apr 2020: Cloud Spanner Emulator Dec 2019: Google Cloud Spanner Dialect for Hibernate released Nov 2019: Opening the door to more dev tools for Cloud Spanner  Migration  Feb 2020: HarbourBridge: From PostgreSQL to Cloud Spanner Jun 2019: Migrating from DynamoDB to Google Cloud Spanner  </description>
+      <description>Technical overview  Apr 2020: Things I Wished More Developers Knew About Databases  Operational excellence  Oct 2020: Scaling Cloud Spanner Instances Jul 2020: Cloud Spanner Change Watcher and Cloud Spanner Change Publisher May 2020: Create Cloud Spanner Scheduled Backups Apr 2020: Instrumenting Cloud Spanner Go Applications with OpenCensus Mar 2020: Troubleshooting Cloud Spanner Applications with OpenCensus  Internals  Jan 2021: The Magic of Distributed Joins in Cloud Spanner May 2020: How Does Spanner Avoid Single Point of Failures in Writes?</description>
     </item>
     
     <item>
@@ -57,8 +53,8 @@ Every one of Google&amp;rsquo;s open source projects and communities are inclusi
       
       <guid>https://cloudspannerecosystem.dev/projects/</guid>
       <description>App Engine Java Sample demonstrates how to use Cloud Spanner from the App Engine Standard with Java 11 environment.
-  HarbourBridge is a stand-alone tool for Cloud Spanner evaluation, using data from an existing PostgreSQL database. The tool ingests pg_dump output, automatically builds a Spanner schema, and creates a new Spanner database populated with data from pg_dump.
-  PGAdapter is a client-side Java proxy which translates Postgres wire protocol into the Cloud Spanner equivalent.</description>
+  Autoscaler is a companion tool to Cloud Spanner that allows you to automatically increase or reduce the number of nodes in one or more Spanner instances, based on their utilization.
+  HarbourBridge is a stand-alone tool for Cloud Spanner evaluation, using data from an existing PostgreSQL database.</description>
     </item>
     
     <item>

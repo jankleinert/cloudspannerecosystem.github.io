@@ -5,10 +5,6 @@
     <link>https://cloudspannerecosystem.dev/categories/</link>
     <description>Recent content in Categories on Cloud Spanner Ecosystem </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://cloudspannerecosystem.dev/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://cloudspannerecosystem.dev/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
